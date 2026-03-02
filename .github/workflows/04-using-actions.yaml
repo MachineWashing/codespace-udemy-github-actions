@@ -13,11 +13,8 @@ jobs:
               with:
                 node-version: '24.x'
             - name: Install Dependencies
-              run: |
-                cd 04-Using-Actions/react-app
-                ls -la
-                npm ci
-              #working-directory: 04-Using-Actions/react-app
+              run: nmp ci
+              working-directory: 04-Using-Actions/react-app
 
 
         #0. Checkout the code from the repository
